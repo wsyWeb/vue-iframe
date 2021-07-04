@@ -1,0 +1,1041 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, legend, button
+form, fieldset, input, textarea, p, blockquote, th, td {
+    padding: 0;
+    margin: 0;
+}
+
+/* 酌情修改 */
+body {
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Arial Negreta', 'Arial';
+}
+
+/* 短引用的内容可取值：''或"" */
+q:before, q:after {
+    content: '';
+}
+
+/* 缩写，图片等无边框 */
+fieldset, img, abbr, acronym {
+    border: 0 none;
+}
+
+abbr, acronym {
+    font-variant: normal;
+}
+
+legend {
+    color: #000;
+}
+
+/* 清除特殊标记的字体和字号 */
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 上下标 */
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+/* 设置表格的边框被合并为一个单一的边框, 指定分隔边框模型中单元格边界之间的距离为0*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 表格标题及内容居左显示 */
+caption, th {
+    text-align: left;
+}
+
+input, img, select {
+    vertical-align: middle;
+}
+
+/* 清除列表样式 */
+ol, ul {
+    list-style: none;
+}
+
+/* 输入控件字体 */
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+/* 标题元素样式清除 */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+/* 链接样式，颜色可酌情修改 */
+del, ins, a {
+    text-decoration: none;
+}
+
+//a:link {color:#009;}
+//a:visited {color:#800080;}
+//a:hover,a:active,a:focus {color:#c00; text-decoration:underline;}
+
+/* 鼠标样式 */
+input[type="submit"] {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+.m-sm {
+    margin: 10px;
+}
+
+.m-md {
+    margin: 20px;
+}
+
+.m-l-xs {
+    margin-left: 5px !important;
+}
+
+.m-l-sm {
+    margin-left: 10px !important;
+}
+
+.m-l {
+    margin-left: 15px;
+}
+
+.m-l-md {
+    margin-left: 20px;
+}
+
+.m-l-lg {
+    margin-left: 30px;
+}
+
+.m-l-xl {
+    margin-left: 40px;
+}
+
+.m-t-xxs {
+    margin-top: 1px;
+}
+
+.m-t-xs {
+    margin-top: 5px;
+}
+
+.m-t-sm {
+    margin-top: 10px;
+}
+
+.m-t {
+    margin-top: 15px;
+}
+
+.m-t-md {
+    margin-top: 20px;
+}
+
+.m-t-lg {
+    margin-top: 30px;
+}
+
+.m-t-xl {
+    margin-top: 40px;
+}
+
+.m-t-xxl {
+    margin-top: 80px;
+}
+
+.m-r-none {
+    margin-right: 0;
+}
+
+.m-r-xxs {
+    margin-right: 1px;
+}
+
+.m-r-xs {
+    margin-right: 5px;
+}
+
+.m-r-sm {
+    margin-right: 10px;
+}
+
+.m-r-md {
+    margin-right: 20px;
+}
+
+.m-r-lg {
+    margin-right: 30px;
+}
+
+.m-r-xl {
+    margin-right: 40px;
+}
+
+.m-b-none {
+    margin-bottom: 0 !important;
+}
+
+.m-b-xxs {
+    margin-bottom: 1px;
+}
+
+.m-b-xs {
+    margin-bottom: 5px;
+}
+
+.m-b-sm {
+    margin-bottom: 10px;
+}
+
+.m-b {
+    margin-bottom: 15px;
+}
+
+.m-b-md {
+    margin-bottom: 20px;
+}
+
+.m-b-lg {
+    margin-bottom: 30px;
+}
+
+.m-b-xl {
+    margin-bottom: 40px;
+}
+
+/*------padding-------------------start---------------*/
+.p-xxs {
+    padding: 5px;
+}
+
+.p-b-xxs {
+    padding-bottom: 5px !important;
+}
+
+.p-xs {
+    padding: 10px;
+}
+
+.p-l-xs {
+    padding-left: 10px !important;
+}
+
+.p-r-xs {
+    padding-right: 10px !important;
+}
+
+.p-sm {
+    padding: 15px;
+}
+
+.p-l-sm {
+    padding-left: 15px !important;
+}
+
+.p-r-sm {
+    padding-right: 15px !important;
+}
+
+.p-t-sm {
+    padding-top: 15px !important;
+}
+
+.p-b-sm {
+    padding-bottom: 15px !important;
+}
+
+.p-l-md {
+    padding-left: 20px;
+}
+
+.p-t-md {
+    padding-top: 20px;
+}
+
+.p-t-lg {
+    padding-top: 30px;
+}
+
+.p-b-md {
+    padding-bottom: 20px;
+}
+
+.p-md {
+    padding: 20px;
+}
+
+.p-lg {
+    padding: 30px;
+}
+
+.p-xl {
+    padding: 40px;
+}
+
+/*------padding-------------------end---------------*/
+
+/*--------背景颜色-----------------start-------------*/
+.bg-white {
+    background-color: #fff;
+}
+
+.common-bg {
+    background-color: #1890ff;
+}
+
+.bg-gray {
+    background: #f2f2f2;
+}
+.bg-eee {
+    background: #eee;
+}
+.bg-primary {
+    background-color: #337ab7;
+}
+
+a.bg-primary:hover,
+a.bg-primary:focus {
+    background-color: #286090;
+}
+
+.bg-success {
+    background-color: #d7e2ae;
+}
+
+a.bg-success:hover,
+a.bg-success:focus {
+    background-color: #c4d489;
+}
+
+.bg-info {
+    background-color: #e0ebf9;
+}
+
+a.bg-info:hover,
+a.bg-info:focus {
+    background-color: #b5cff0;
+}
+
+.rz-state {
+    position: relative;
+    left: -60px;
+}
+
+.rz-type {
+    position: absolute;
+    top: 100px;
+
+}
+
+.bg-warning {
+    background-color: #f9e491;
+}
+
+a.bg-warning:hover,
+a.bg-warning:focus {
+    background-color: #f6d861;
+}
+
+.bg-danger {
+    background-color: #fbe1e3;
+}
+
+a.bg-danger:hover,
+a.bg-danger:focus {
+    background-color: #f6b3b8;
+}
+
+/*--------背景颜色-----------------end-------------*/
+
+/*---------自定义滚动条-------start--*/
+.scroll-content-wrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.scroll-content-wrapper::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.scroll-content-wrapper::-webkit-scrollbar-track-piece {
+    background-color: #eaeaea;
+    -webkit-border-radius: 5px;
+}
+
+.scroll-content-wrapper::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: #BBB;
+    -webkit-border-radius: 5px;
+}
+
+/*---------自定义滚动条-------end--*/
+/*-------flex-box------------start------*/
+.flex {
+    display: flex;
+    displey: -webkit-flex;
+    display: -ms-flex;
+}
+
+.flex-between {
+    display: flex;
+    displey: -webkit-flex;
+    display: -ms-flex;
+    justify-content: space-between;
+}
+.flex-between-r{
+    display: flex;
+    displey: -webkit-flex;
+    display: -ms-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+.flex-between-n{
+    display: flex;
+    display: -ms-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap
+}
+.flex-around-w {
+    display: flex;
+    displey: -webkit-flex;
+    display: -ms-flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.flex-center {
+    display: flex;
+    displey: -webkit-flex;
+    display: -ms-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// 换行
+.flex-between-w {
+    display: flex;
+    displey: -webkit-flex;
+    display: -ms-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.flex-between-c {
+    display: flex;
+    displey: -webkit-flex;
+    display: -ms-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-around {
+    display: flex;
+    displey: -webkit-flex;
+    display: -ms-flex;
+    justify-content: space-around;
+}
+
+.flex-around-c {
+    display: flex;
+    displey: -webkit-flex;
+    display: -ms-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-row {
+    display: flex;
+    displey: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: row;
+}
+
+/*-------flex-box------------end------*/
+
+/*------and-modal-------start--------*/
+.modal-full-screen {
+    .ant-modal {
+        top: 0;
+        padding-bottom: 0;
+        height: 100%;
+
+        .ant-modal-content {
+            height: 100%;
+
+            .ant-modal-footer {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+/*------and-modal-------end--------*/
+/*-------文本------------start-----*/
+
+.opacity-8 {
+    opacity: 0.8;
+}
+
+.opacity-6 {
+    opacity: 0.6;
+}
+
+.text-ellipsis-1 {
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
+}
+
+.text-ellipsis-2 {
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.text-ellipsis-3 {
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+    text-align-last: justify;
+    text-justify: inter-ideograph;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.theme-color-blue {
+    color: rgba(0, 153, 255, 1);
+}
+
+.theme-color-deepblue {
+    color: rgba(0, 102, 255, 1);
+}
+
+.theme-color-red {
+    color: #f5222d;
+}
+
+.theme-background-color-blue {
+    background-color: rgba(0, 153, 255, 1);
+}
+
+.theme-background-color-deepblue {
+    background-color: rgba(0, 102, 255, 1);
+}
+
+.theme-color-white {
+    color: #fff;
+}
+
+.tip-text {
+    opacity: 0.9;
+    font-size: 12px;
+}
+
+.font-26 {
+    font-size: 26px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-23 {
+    font-size: 24px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.font-32 {
+    font-size: 32px;
+}
+
+.font-38 {
+    font-size: 38px;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.font-46 {
+    font-size: 46px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.common-text-color {
+    color: #4a515a;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+//强制换行
+.force-to-newline {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+/*-------文本------------end-----*/
+
+//-----------others
+
+.no-data {
+    text-align: center;
+    background-color: #e0ebf9;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.img-red {
+    color: red;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.school-detail-wrapper {
+    //top: -45px;
+    position: relative;
+}
+
+.store-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.store-logo {
+    border-radius: 130px !important;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: 20px;
+}
+
+.table-fixed {
+    table-layout: fixed;
+}
+
+/*----antd---样式重置-----start---*/
+.ant-table-small > .ant-table-content > .ant-table-body {
+    margin: 0 !important; //小table的margin为0
+}
+
+.ant-table-thead > tr > th {
+    background: #fafafa !important;
+    font-weight: 600;
+}
+
+.ant-table-tbody > tr > td {
+    vertical-align: middle;
+}
+
+.add-btn-common {
+    color: #17a854;
+    border: 1px solid #17a854;
+}
+
+.add-btn-common:hover,
+.add-btn-common:focus {
+    color: #17a854 !important;
+    border: 1px solid #17a854 !important;
+    opacity: 0.6;
+}
+
+.ant-btn-danger {
+    border-color: #f5222d !important;
+    background-color: white !important;
+}
+
+.ant-btn-danger:hover,
+.ant-btn-danger:focus {
+    opacity: 0.6;
+    border-color: #f5222d !important;
+    background-color: white !important;
+    color: #f5222d !important;
+}
+
+.ant-btn.ant-btn-danger {
+    color: #fff;
+    background-color: #ed5565 !important;
+    border-color: #ed5565 !important;
+
+    &:hover {
+        color: #ffffff !important;
+        opacity: 1;
+    }
+
+    &:focus {
+        color: #ffffff !important;
+        opacity: 1;
+    }
+}
+
+.ant-btn.ant-btn-primary.custom-primary {
+    background-color: #23c6c8;
+    border-color: #23c6c8;
+}
+
+.ant-form-inline .ant-form-item > .ant-form-item-label {
+    font-weight: bold !important;
+}
+
+/*----antd---样式重置-----end---*/
+
+
+/*----float-----start---*/
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/*----float-----end---*/
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.cursor-pointer-show {
+    display: none;
+    position: absolute;
+}
+
+.cursor-pointer-box:hover {
+    position: relative;
+    cursor: pointer;
+
+    .cursor-pointer-show {
+        display: inline-block;
+        z-index: 999;
+    }
+}
+
+
+.ant-pagination-options-quick-jumper input {
+    height: 31px !important;
+}
+// 需注释，否则会导致Y滚动不可用
+// .ant-table-fixed-header .ant-table-body-inner {
+//     overflow: hidden;
+// }
+
+@primary-color: #1890ff; // 全局主色
+@link-color: #1890ff; // 链接色
+@success-color: #52c41a; // 成功色
+@warning-color: #faad14; // 警告色
+@error-color: #f5222d; // 错误色
+@font-size-base: 14px; // 主字号
+@heading-color: rgba(0, 0, 0, 0.85); // 标题色
+@text-color: rgba(0, 0, 0, 0.65); // 主文本色
+@text-color-secondary: rgba(0, 0, 0, 0.45); // 次文本色
+@disabled-color: rgba(0, 0, 0, 0.25); // 失效色
+@border-radius-base: 4px; // 组件/浮层圆角
+@border-color-base: #d9d9d9; // 边框色
+@box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15); // 浮层阴影
+
+.ant-btn-success{
+    color: #fff;
+    background-color: @success-color;
+    border-color: @success-color;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.ant-btn-success:hover,
+.ant-btn-success:focus{
+    color: #fff;
+    background-color: #73d13d;
+    border-color: #73d13d;
+}
+
+@theme-blue: rgba(0, 153, 255, 1);
+@theme-deepblue: rgba(0, 102, 255, 1);
+
+@modal-width-lg: 1000px;
+@modal-width-md: 800px;
+@modal-width-sm: 600px;
+
+
+.modal-lg{
+    width: @modal-width-lg;
+}
+.modal-md{
+    width: @modal-width-md;
+}
+.modal-sm{
+    width: @modal-width-sm;
+}
+.outer-box {
+    display: flex;
+    displey: -webkit-flex;
+    display: -ms-flex;
+    flex: 1;
+    height: 100%;
+}
+
+.main-box {
+    flex: 1;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.info-box {
+    display: flex;
+    displey: -webkit-flex;
+    display: -ms-flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: scroll;
+    padding-top: 10px;
+}
+
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    background: @theme-blue;
+    color: #fff;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+    color: #fff;
+}
+
+.ant-form-item {
+    margin-bottom: 12px;
+}
+
+.ant-spin-nested-loading {
+    height: 100%;
+}
+
+.ant-spin-container {
+    height: 100%;
+}
+
+.ol-zoom {
+    left: unset !important;
+    right: .5em;
+    top: 1em;
+}
+
+/* 弹窗样式 */
+.popup {
+    width: 280px;
+    position: relative;
+    background: #fff;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+}
+
+.popup:after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    border: 12px solid transparent;
+    border-top-color: #fff;
+    bottom: -23px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.viewer-toolbar > ul > li {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 10px;
+    padding-top: 8px;
+    background: #333;
+}
+
+.viewer-toolbar > ul > .viewer-large {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 10px 0 0;
+    padding-top: 5px;
+}
+
+.viewer-toolbar > ul > li:nth-child(5), .viewer-toolbar > ul > li:nth-child(6), .viewer-toolbar > ul > li:nth-child(7) {
+    width: 0;
+    margin: 0;
+}
+
+// // 取消滚动条
+// ::-webkit-scrollbar {
+//     display: none;
+// }
+
+// html {
+//     /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+//     -ms-overflow-style: none;
+//     /*火狐下隐藏滚动条*/
+//     overflow: -moz-scrollbars-none;
+// }
+
+//html {
+//    overflow: hidden;
+//}
+
+.table-box{
+    margin-top: 10px;
+    padding: 10px 30px;
+    background: #ffffff;
+
+    .button-box{
+        margin-top: 10px;
+    }
+}
+
+.ant-spin-nested-loading > div > .ant-spin{
+    max-height: 100%;
+}
+
+.ant-spin-nested-loading > div > .ant-spin .ant-spin-dot{
+    top: 40%;
+    margin: -10px;
+}
+.ant-tabs-bar{
+    min-height: 40px;
+}
+
+// color
+.color-222{
+    color:#666;
+}
+.color-222:hover{
+    color: #000;
+}
+// 如果不添加， vxe-table 的右键菜单无法显示
+.ant-modal-mask {
+    z-index: 99;
+  }
+.ant-modal-wrap {
+    z-index: 100;
+  }
