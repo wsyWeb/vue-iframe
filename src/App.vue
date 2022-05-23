@@ -6,7 +6,7 @@
 // import zh_CN from 'ant-design-vue/lib/locale-provider/zh_CN';
 export default {
   // msd
-};
+}
 </script>
 <style>
 #app {
